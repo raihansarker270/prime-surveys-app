@@ -4,7 +4,7 @@ import type { User, WithdrawalRecord } from '../types';
 // The base URL for your backend API.
 // For local development, it will be 'http://localhost:3001'.
 // When you deploy your backend to Render, you will change this to your Render service URL.
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://prime-surveys-backend.onrender.com';
 
 interface AuthContextType {
   user: User | null;
